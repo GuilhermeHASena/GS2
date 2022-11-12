@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@300;500&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container-principal{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+.ambiente-title{
+    margin-top: 5vh;
+    color: #1f337d;
+    font-size: 4vh;
+}
+.ambiente-table{
+    width: 80%;
+    margin-top: 5vh;
+    box-shadow: 0px 2px 16px 0px rgb(0 0 0 / 20%);
+    text-align: center;
+    border-radius: 2vh;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+}
+.ambiente-thead{
+    background-color: #1f337d;
+    color: white;
+    height: 8vh;
+}
+.ambiente-content{
+    height: 7vh;
+    font-weight: bold;
+}
+.icons{
+    color: #1f337d;
+    font-size: 3vh;
+    margin: 0 2vh 0 0;
+    cursor: pointer;
+}
+.icons:hover{
+    color: #2e5afc;
+    transition: all 0.5s ease 0s;
+}
